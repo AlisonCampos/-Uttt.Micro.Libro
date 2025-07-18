@@ -2,7 +2,6 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
-using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Uttt.Micro.Libro.Persistencia;
 
@@ -19,8 +18,6 @@ namespace Uttt.Micro.Libro.Migrations
             modelBuilder
                 .HasAnnotation("ProductVersion", "9.0.5")
                 .HasAnnotation("Relational:MaxIdentifierLength", 64);
-
-            MySqlModelBuilderExtensions.AutoIncrementColumns(modelBuilder);
 
             modelBuilder.Entity("Uttt.Micro.Libro.Modelo.LibreriaMaterial", b =>
                 {

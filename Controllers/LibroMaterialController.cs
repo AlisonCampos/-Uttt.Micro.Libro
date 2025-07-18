@@ -34,13 +34,7 @@ namespace Uttt.Micro.Libro.Controllers
             {
                 LibroId = id
             });
-        }
-        [HttpGet("ping")]
-        public IActionResult Ping()
-        {
-            var host = System.Environment.MachineName; // Devuelve el nombre del contenedor
-            return Ok($"Respuesta de: {host}");
-        }    
+        }  
     }
 
 }
