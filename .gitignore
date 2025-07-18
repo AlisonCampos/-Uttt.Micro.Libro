@@ -1,1 +1,10 @@
 ﻿.vs/
+bin/
+obj/
+*.user
+*.exe
+*.dll
+*.cache.json
+*.pdb
+*.sourcelink.json
+*.BuildWithSkipAnalyzers
